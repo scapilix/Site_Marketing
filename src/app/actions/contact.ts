@@ -35,8 +35,10 @@ export async function sendContactEmail(formData: FormData) {
     });
 
     if (error) {
-      console.error("Resend Error:", error);
-      return { error: "Ocorreu um erro ao enviar o teu pedido. Tenta novamente mais tarde." };
+      console.error("Resend Error Detail:", error);
+      // Retornar a mensagem específica do Resend se disponível para facilitar o debug
+      const errorMsg = error.message || "Ocorreu um erro ao enviar o teu pedido.";
+      return { error: `${errorMsg} (Verifica as variáveis no Vercel)` };
     }
 
     return { success: true };
