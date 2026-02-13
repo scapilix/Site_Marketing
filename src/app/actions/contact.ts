@@ -2,8 +2,6 @@
 
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function sendContactEmail(formData: FormData) {
   const name = formData.get("name") as string;
   const instagram = formData.get("instagram") as string;
@@ -14,7 +12,15 @@ export async function sendContactEmail(formData: FormData) {
     return { error: "Por favor preencha todos os campos obrigatórios." };
   }
 
+  // 1. Verificar se a API Key existe
+  if (!process.env.RESEND_API_KEY) {
+    console.error("ERRO CRÍTICO: RESEND_API_KEY não configurada no Vercel.");
+    return { error: "O serviço de e-mail não está configurado. Por favor, contacte o suporte." };
+  }
+
   try {
+    const resend = new Resend(process.env.RESEND_API_KEY);
+    
     const { data, error } = await resend.emails.send({
       from: "LeadPulsePT <onboarding@resend.dev>",
       to: [process.env.CONTACT_RECEIVER_EMAIL || "ricardo.souzamarques@verisure.pt"],
@@ -36,6 +42,6 @@ export async function sendContactEmail(formData: FormData) {
     return { success: true };
   } catch (err) {
     console.error("Submission Error:", err);
-    return { error: "Falha na conexão. Verifique a sua internet." };
+    return { error: "Falha na ligação ao servidor. Tenta novamente." };
   }
 }
