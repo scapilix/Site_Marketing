@@ -13,10 +13,10 @@ export default function Home() {
       <footer className="py-12 border-t border-white/5 px-4">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-xl font-bold tracking-tighter">
-            AC<span className="text-pink-500 font-extrabold">MKT</span>
+            LeadPulse<span className="text-pink-500 font-extrabold">PT</span>
           </div>
           <p className="text-gray-500 text-sm">
-            © 2026 AC Marketing - Todos os direitos reservados.
+            © 2026 LeadPulsePT - Todos os direitos reservados.
           </p>
           <div className="flex gap-6 text-gray-400 text-sm">
             <a href="#" className="hover:text-white transition-colors">Termos</a>

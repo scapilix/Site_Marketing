@@ -13,7 +13,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "AC Marketing - Gestão de Tráfego Profissional",
+  title: "LeadPulsePT - Gestão de Tráfego Profissional",
   description: "Escala a faturação do teu negócio com gestão de tráfego profissional.",
 };
 
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-PT">
       <body
         className={`${inter.variable} ${manrope.variable} antialiased bg-[#050505] text-white`}
       >

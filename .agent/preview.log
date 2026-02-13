@@ -90,3 +90,893 @@ Resend Error: {
  POST / 200 in 530ms
  ✓ Compiled in 236ms (672 modules)
  GET / 200 in 28ms
+ ✓ Compiled in 289ms (672 modules)
+ GET / 200 in 23ms
+ ✓ Compiled in 265ms (672 modules)
+ GET / 200 in 23ms
+ ✓ Compiled in 415ms (672 modules)
+ GET / 200 in 36ms
+ ✓ Compiled in 442ms (672 modules)
+ GET / 200 in 23ms
+ ✓ Compiled in 257ms (672 modules)
+ GET / 200 in 31ms
+ ✓ Compiled in 371ms (672 modules)
+ GET / 200 in 58ms
+ ✓ Compiled in 251ms (672 modules)
+ GET / 200 in 29ms
+ ✓ Compiled in 294ms (672 modules)
+ GET / 200 in 20ms
+ ✓ Compiled in 272ms (672 modules)
+ GET / 200 in 25ms
+ ✓ Compiled in 237ms (672 modules)
+ GET / 200 in 44ms
+ ✓ Compiled in 739ms (672 modules)
+ GET / 200 in 180ms
+ ✓ Compiled in 396ms (672 modules)
+ GET / 200 in 34ms
+ ✓ Compiled in 896ms (672 modules)
+ GET / 200 in 40ms
+ ✓ Compiled in 396ms (672 modules)
+ GET / 200 in 24ms
+ ✓ Compiled in 498ms (672 modules)
+ GET / 200 in 25ms
+ ✓ Compiled in 609ms (672 modules)
+ GET / 200 in 34ms
+ ✓ Compiled in 616ms (672 modules)
+ GET / 200 in 40ms
+ ✓ Compiled in 361ms (672 modules)
+ GET / 200 in 32ms
+ ✓ Compiled in 390ms (672 modules)
+ ✓ Compiled in 647ms (672 modules)
+ GET / 200 in 695ms
+ GET / 200 in 42ms
+ ✓ Compiled in 572ms (672 modules)
+ ✓ Compiled in 618ms (672 modules)
+ GET / 200 in 556ms
+ GET / 200 in 28ms
+ ✓ Compiled in 632ms (672 modules)
+ GET / 200 in 32ms
+ ⨯ ./src/components/sections/Hero.tsx
+Error:   [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\src\components\sections\Hero.tsx[0m:8:1]
+ [2m 5[0m | 
+ [2m 6[0m | export default function Hero() {
+ [2m 7[0m |   return (
+ [2m 8[0m |     <section className="relative pt-32 pb-20 px-4 md:px-0">
+    : [35;1m     ^^^^^^^[0m
+ [2m 9[0m |       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[500px] pointer-events-none">
+ [2m10[0m |          <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-pink-500/20 blur-[120px] rounded-full animate-pulse" />
+ [2m10[0m |     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-[#050505]">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/sections/Hero.tsx
+Error:   [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\src\components\sections\Hero.tsx[0m:8:1]
+ [2m 5[0m | 
+ [2m 6[0m | export default function Hero() {
+ [2m 7[0m |   return (
+ [2m 8[0m |     <section className="relative pt-32 pb-20 px-4 md:px-0">
+    : [35;1m     ^^^^^^^[0m
+ [2m 9[0m |       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[500px] pointer-events-none">
+ [2m10[0m |          <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-pink-500/20 blur-[120px] rounded-full animate-pulse" />
+ [2m10[0m |     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-[#050505]">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+./src/app/page.tsx
+ ○ Compiling /_error ...
+ ⨯ ./src/components/sections/Hero.tsx
+Error:   [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\src\components\sections\Hero.tsx[0m:8:1]
+ [2m 5[0m | 
+ [2m 6[0m | export default function Hero() {
+ [2m 7[0m |   return (
+ [2m 8[0m |     <section className="relative pt-32 pb-20 px-4 md:px-0">
+    : [35;1m     ^^^^^^^[0m
+ [2m 9[0m |       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[500px] pointer-events-none">
+ [2m10[0m |          <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-pink-500/20 blur-[120px] rounded-full animate-pulse" />
+ [2m10[0m |     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-[#050505]">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Hero.tsx
+./src/app/page.tsx
+ GET / 500 in 21664ms
+ GET / 500 in 24578ms
+ GET / 500 in 107ms
+ GET / 500 in 103ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\cache\webpack\client-development-fallback\0.pack.gz'
+ ✓ Compiled /_error in 650ms (866 modules)
+ GET / 500 in 23ms
+ ✓ Compiled in 276ms (866 modules)
+ GET / 500 in 17ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 6.5s (1850 modules)
+ GET /_next/static/webpack/59e8b70b1114868b.webpack.hot-update.json 404 in 6792ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 392ms
+ GET / 200 in 71ms
+ GET / 200 in 48ms
+ GET / 200 in 60ms
+ ✓ Compiled in 268ms (871 modules)
+ GET / 200 in 28ms
+ GET / 200 in 18ms
+ ✓ Compiled in 182ms (871 modules)
+ GET / 200 in 32ms
+ GET / 200 in 15ms
+ ✓ Compiled in 673ms (1860 modules)
+ GET / 200 in 109ms
+ GET / 200 in 24ms
+ GET / 200 in 266ms
+ ✓ Compiled in 601ms (871 modules)
+ ✓ Compiled in 405ms (871 modules)
+ GET / 200 in 222ms
+ GET / 200 in 23ms
+ GET / 200 in 19ms
+ GET / 200 in 17ms
+ ✓ Compiled in 1010ms (871 modules)
+ GET / 200 in 59ms
+ GET / 200 in 52ms
+ ✓ Compiled in 1160ms (871 modules)
+ GET / 200 in 96ms
+ GET / 200 in 38ms
+ ✓ Compiled in 1584ms (871 modules)
+ GET / 200 in 42ms
+ GET / 200 in 44ms
+ ✓ Compiled in 1540ms (871 modules)
+ GET / 200 in 48ms
+ GET / 200 in 69ms
+ ✓ Compiled in 1816ms (871 modules)
+ GET / 200 in 525ms
+ GET / 200 in 34ms
+ ✓ Compiled in 2.3s (871 modules)
+ GET / 200 in 948ms
+ GET / 200 in 485ms
+ ✓ Compiled in 1057ms (871 modules)
+ GET / 200 in 135ms
+ GET / 200 in 158ms
+ ✓ Compiled in 3.6s (1860 modules)
+ ✓ Compiled in 828ms (871 modules)
+ ✓ Compiled in 610ms (871 modules)
+ ✓ Compiled in 571ms (871 modules)
+ ✓ Compiled in 835ms (871 modules)
+ ✓ Compiled in 675ms (871 modules)
+ ✓ Compiled in 529ms (871 modules)
+ ✓ Compiled in 5.2s (1866 modules)
+ ✓ Compiled in 810ms (874 modules)
+ GET / 200 in 6484ms
+ GET / 200 in 130ms
+ ✓ Compiled in 656ms (874 modules)
+ GET / 200 in 69ms
+ ✓ Compiled in 884ms (874 modules)
+ GET / 200 in 153ms
+ ✓ Compiled in 1351ms (874 modules)
+ GET / 200 in 193ms
+ ✓ Compiled in 6.2s (1866 modules)
+ GET / 200 in 276ms
+ GET / 200 in 1041ms
+ ✓ Compiled in 748ms (874 modules)
+ GET / 200 in 66ms
+ ✓ Compiled in 537ms (874 modules)
+ GET / 200 in 43ms
+ ⨯ ./src/components/sections/Benefits.tsx:42:1
+Module not found: Can't resolve '/public/animations/growth.json'
+  40 | ];
+  41 |
+> 42 | import growthAnimation from "/public/animations/growth.json";
+     | ^
+  43 |
+  44 | export default function Benefits() {
+  45 |   const containerVariants = {
+
+https://nextjs.org/docs/messages/module-not-found
+ GET / 500 in 84ms
+ GET / 500 in 29ms
+ GET / 500 in 26ms
+ ⨯ ./src/components/sections/Benefits.tsx:42:1
+Module not found: Can't resolve '/public/animations/growth.json'
+  40 | ];
+  41 |
+> 42 | import growthAnimation from "/public/animations/growth.json";
+     | ^
+  43 |
+  44 | export default function Benefits() {
+  45 |   const containerVariants = {
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/components/sections/Benefits.tsx:42:1
+Module not found: Can't resolve '/public/animations/growth.json'
+  40 | ];
+  41 |
+> 42 | import growthAnimation from "/public/animations/growth.json";
+     | ^
+  43 |
+  44 | export default function Benefits() {
+  45 |   const containerVariants = {
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/components/sections/Benefits.tsx:42:1
+Module not found: Can't resolve '/public/animations/growth.json'
+  40 | ];
+  41 |
+> 42 | import growthAnimation from "/public/animations/growth.json";
+     | ^
+  43 |
+  44 | export default function Benefits() {
+  45 |   const containerVariants = {
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/components/sections/Benefits.tsx:42:1
+Module not found: Can't resolve '@/assets/animations/growth.json'
+  40 | ];
+  41 |
+> 42 | import growthAnimation from "@/assets/animations/growth.json";
+     | ^
+  43 |
+  44 | export default function Benefits() {
+  45 |   const containerVariants = {
+
+https://nextjs.org/docs/messages/module-not-found
+ GET / 500 in 46ms
+ GET / 500 in 50ms
+ GET / 500 in 43ms
+ ⨯ ./src/components/sections/Benefits.tsx:42:1
+Module not found: Can't resolve '@/assets/animations/growth.json'
+  40 | ];
+  41 |
+> 42 | import growthAnimation from "@/assets/animations/growth.json";
+     | ^
+  43 |
+  44 | export default function Benefits() {
+  45 |   const containerVariants = {
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/components/sections/Benefits.tsx:42:1
+Module not found: Can't resolve '@/assets/animations/growth.json'
+  40 | ];
+  41 |
+> 42 | import growthAnimation from "@/assets/animations/growth.json";
+     | ^
+  43 |
+  44 | export default function Benefits() {
+  45 |   const containerVariants = {
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/components/sections/Benefits.tsx:42:1
+Module not found: Can't resolve '@/assets/animations/growth.json'
+  40 | ];
+  41 |
+> 42 | import growthAnimation from "@/assets/animations/growth.json";
+     | ^
+  43 |
+  44 | export default function Benefits() {
+  45 |   const containerVariants = {
+
+https://nextjs.org/docs/messages/module-not-found
+ ✓ Compiled in 4.1s (1868 modules)
+ ○ Compiling /_not-found ...
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 1398ms
+ ✓ Compiled /_not-found in 3.5s (1858 modules)
+ ✓ Compiled in 720ms (878 modules)
+ GET / 200 in 1934ms
+ ✓ Compiled in 448ms (878 modules)
+ GET / 200 in 48ms
+ GET / 200 in 386ms
+ ✓ Compiled in 932ms (875 modules)
+ GET / 200 in 72ms
+ ✓ Compiled in 1026ms (875 modules)
+ GET / 200 in 265ms
+ ✓ Compiled in 500ms (875 modules)
+ GET / 200 in 42ms
+ ✓ Compiled in 287ms (875 modules)
+ GET / 200 in 24ms
+ ✓ Compiled in 1490ms (1868 modules)
+ GET / 200 in 112ms
+ ✓ Compiled in 1094ms (1868 modules)
+ GET / 200 in 210ms
+ ✓ Compiled in 356ms (875 modules)
+ GET / 200 in 60ms
+ ✓ Compiled in 369ms (875 modules)
+ GET / 200 in 29ms
+ ✓ Compiled in 729ms (875 modules)
+ GET / 200 in 48ms
+ ✓ Compiled in 992ms (875 modules)
+ ✓ Compiled in 552ms (875 modules)
+ GET / 200 in 556ms
+ GET / 200 in 38ms
+ ✓ Compiled in 260ms (875 modules)
+ GET / 200 in 32ms
+ ✓ Compiled in 636ms (1868 modules)
+ GET / 200 in 158ms
+ ✓ Compiled in 2.9s (1868 modules)
+ GET / 200 in 264ms
+ GET / 200 in 1062ms
+ ✓ Compiled in 783ms (875 modules)
+ GET / 200 in 719ms
+ ✓ Compiled in 663ms (875 modules)
+ ✓ Compiled in 619ms (875 modules)
+ GET / 200 in 46ms
+ GET / 200 in 36ms
+ ✓ Compiled in 341ms (875 modules)
+ GET / 200 in 30ms
+ ✓ Compiled in 1007ms (1868 modules)
+ GET / 200 in 198ms
+ ✓ Compiled in 916ms (1868 modules)
+ GET / 200 in 165ms
+ GET / 200 in 364ms
+ ✓ Compiled in 350ms (875 modules)
+ GET / 200 in 23ms
+ ✓ Compiled in 227ms (875 modules)
+ GET / 200 in 37ms
+ ✓ Compiled in 811ms (875 modules)
+ GET / 200 in 47ms
+ ✓ Compiled in 916ms (875 modules)
+ GET / 200 in 69ms
+ ✓ Compiled in 786ms (875 modules)
+ GET / 200 in 73ms
+ ✓ Compiled in 441ms (875 modules)
+ GET / 200 in 34ms
+ ✓ Compiled in 864ms (875 modules)
+ ✓ Compiled in 1267ms (875 modules)
+ GET / 200 in 334ms
+ GET / 200 in 51ms
+ ✓ Compiled in 958ms (875 modules)
+ GET / 200 in 50ms
+ ✓ Compiled in 3.4s (1862 modules)
+ GET / 200 in 2018ms
+React does not recognize the `offsetDistance` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `offsetdistance` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+ GET / 200 in 575ms
+ GET / 200 in 183ms
+ ✓ Compiled in 477ms (872 modules)
+ GET / 200 in 33ms
+ GET / 200 in 36ms
+ GET / 200 in 34ms
+ ✓ Compiled in 222ms (872 modules)
+ GET / 200 in 66ms
+ GET / 200 in 32ms
+ GET / 200 in 22ms
+ ✓ Compiled in 566ms (872 modules)
+ GET / 200 in 54ms
+ GET / 200 in 35ms
+ GET / 200 in 27ms
+ ✓ Compiled in 841ms (872 modules)
+ GET / 200 in 136ms
+ ✓ Compiled in 1019ms (872 modules)
+ ✓ Compiled in 1022ms (872 modules)
+ ✓ Compiled in 896ms (872 modules)
+ ✓ Compiled in 559ms (872 modules)
+ ✓ Compiled in 3.8s (1862 modules)
+ ✓ Compiled in 1144ms (872 modules)
+ ✓ Compiled in 860ms (872 modules)
+ ✓ Compiled in 678ms (872 modules)
+ ⨯ ReferenceError: containerVariants is not defined
+    at containerVariants (src\components\sections\Benefits.tsx:46:20)
+  44 |
+  45 |         <motion.div 
+> 46 |           variants={containerVariants}
+     |                    ^
+  47 |           initial="hidden"
+  48 |           whileInView="visible"
+  49 |           viewport={{ once: true, margin: "-100px" }} {
+  digest: '2100593332'
+}
+ GET / 500 in 662ms
+ ⨯ ReferenceError: containerVariants is not defined
+    at containerVariants (src\components\sections\Benefits.tsx:46:20)
+  44 |
+  45 |         <motion.div 
+> 46 |           variants={containerVariants}
+     |                    ^
+  47 |           initial="hidden"
+  48 |           whileInView="visible"
+  49 |           viewport={{ once: true, margin: "-100px" }} {
+  digest: '2100593332'
+}
+ GET / 500 in 144ms
+ ⨯ ReferenceError: containerVariants is not defined
+    at containerVariants (src\components\sections\Benefits.tsx:46:20)
+  44 |
+  45 |         <motion.div 
+> 46 |           variants={containerVariants}
+     |                    ^
+  47 |           initial="hidden"
+  48 |           whileInView="visible"
+  49 |           viewport={{ once: true, margin: "-100px" }} {
+  digest: '2100593332'
+}
+ GET / 500 in 1381ms
+ ⨯ ReferenceError: containerVariants is not defined
+    at containerVariants (src\components\sections\Benefits.tsx:46:20)
+  44 |
+  45 |         <motion.div 
+> 46 |           variants={containerVariants}
+     |                    ^
+  47 |           initial="hidden"
+  48 |           whileInView="visible"
+  49 |           viewport={{ once: true, margin: "-100px" }} {
+  digest: '2100593332'
+}
+ GET / 500 in 203ms
+ ✓ Compiled in 8.5s (1870 modules)
+ GET / 200 in 3946ms
+ ✓ Compiled in 1332ms (1870 modules)
+ GET / 200 in 261ms
+ ✓ Compiled in 4.5s (1870 modules)
+ GET / 200 in 186ms
+ ✓ Compiled in 1070ms (1870 modules)
+ GET / 200 in 340ms
+ ✓ Compiled in 1639ms (1870 modules)
+ GET / 200 in 237ms
+ ✓ Compiled in 476ms (876 modules)
+ ✓ Compiled in 677ms (876 modules)
+ GET / 200 in 245ms
+ GET / 200 in 22ms
+ ✓ Compiled in 1634ms (1872 modules)
+ GET / 200 in 123ms
+ GET / 200 in 577ms
+ ✓ Compiled in 2s (877 modules)
+ GET / 200 in 784ms
+ ✓ Compiled in 832ms (877 modules)
+ GET / 200 in 111ms
+ ✓ Compiled in 1331ms (1872 modules)
+ GET / 200 in 264ms
+ ✓ Compiled in 3.3s (1876 modules)
+ GET / 200 in 255ms
+ ⨯ ./src/components/sections/Contact.tsx
+Error:   [31mx[0m Expression expected
+    ,-[[36;1;4mC:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\src\components\sections\Contact.tsx[0m:30:1]
+ [2m27[0m |   };
+ [2m28[0m | 
+ [2m29[0m |   return (
+ [2m30[0m |   return (
+    : [35;1m  ^^^^^^[0m
+ [2m31[0m |     <section id="contacto" className="py-24 px-4 bg-[#050505] relative overflow-hidden">
+ [2m32[0m |       <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-pink-500/10 blur-[150px] rounded-full pointer-events-none" />
+ [2m32[0m |       
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Contact.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/sections/Contact.tsx
+Error:   [31mx[0m Expression expected
+    ,-[[36;1;4mC:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\src\components\sections\Contact.tsx[0m:30:1]
+ [2m27[0m |   };
+ [2m28[0m | 
+ [2m29[0m |   return (
+ [2m30[0m |   return (
+    : [35;1m  ^^^^^^[0m
+ [2m31[0m |     <section id="contacto" className="py-24 px-4 bg-[#050505] relative overflow-hidden">
+ [2m32[0m |       <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-pink-500/10 blur-[150px] rounded-full pointer-events-none" />
+ [2m32[0m |       
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Contact.tsx
+./src/app/page.tsx
+ GET / 500 in 778ms
+ ✓ Compiled in 336ms (873 modules)
+ GET / 500 in 60ms
+ GET / 500 in 16ms
+ GET / 500 in 14ms
+ GET / 500 in 145ms
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+
+Could not open Contact.tsx in the editor.
+
+When running on Windows, file names are checked against an access list to protect against remote code execution attacks. File names may consist only of alphanumeric characters (all languages), periods, dashes, slashes, and underscores.
+
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+
+Could not open Contact.tsx in the editor.
+
+When running on Windows, file names are checked against an access list to protect against remote code execution attacks. File names may consist only of alphanumeric characters (all languages), periods, dashes, slashes, and underscores.
+
+ ○ Compiling /_not-found ...
+ ⨯ ./src/components/sections/Contact.tsx
+Error:   [31mx[0m Expression expected
+    ,-[[36;1;4mC:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\src\components\sections\Contact.tsx[0m:30:1]
+ [2m27[0m |   };
+ [2m28[0m | 
+ [2m29[0m |   return (
+ [2m30[0m |   return (
+    : [35;1m  ^^^^^^[0m
+ [2m31[0m |     <section id="contacto" className="py-24 px-4 bg-[#050505] relative overflow-hidden">
+ [2m32[0m |       <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-pink-500/10 blur-[150px] rounded-full pointer-events-none" />
+ [2m32[0m |       
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/Contact.tsx
+./src/app/page.tsx
+ GET /_next/static/webpack/59e8b70b1114868b.webpack.hot-update.json 500 in 1479ms
+ GET / 500 in 14ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 500 in 17ms
+ ✓ Compiled /_not-found in 3.2s (1880 modules)
+ GET /_next/static/webpack/59e8b70b1114868b.webpack.hot-update.json 404 in 222ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 272ms
+ ✓ Compiled in 3.4s (879 modules)
+ ✓ Compiled in 672ms (879 modules)
+ GET / 200 in 213ms
+ GET / 200 in 23ms
+ ✓ Compiled in 1721ms (879 modules)
+ GET / 200 in 44ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 2.4s (1866 modules)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.t [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:1:128)
+    at JSON.parse (<anonymous>) {
+  digest: '2526746631'
+}
+TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.t [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:1:128)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.t [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:1:128)
+    at JSON.parse (<anonymous>)
+ GET /_next/static/css/app/layout.css?v=1770994469219 500 in 6259ms
+ ✓ Compiled in 1430ms (882 modules)
+ ✓ Compiled in 776ms (882 modules)
+ GET / 200 in 79ms
+ GET / 200 in 35ms
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.t [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:1:128)
+    at JSON.parse (<anonymous>) {
+  digest: '2526746631'
+}
+TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.t [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:1:128)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.t [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:1:128)
+    at JSON.parse (<anonymous>)
+ GET /_next/static/css/app/layout.css 500 in 1149ms
+ ✓ Compiled in 3.4s (1880 modules)
+ GET / 200 in 461ms
+ GET /_next/static/css/app/layout.css?v=1770994545808 404 in 274ms
+ ✓ Compiled in 1776ms (1880 modules)
+ GET / 200 in 250ms
+ GET /_next/static/css/app/layout.css?v=1770994552935 404 in 144ms
+ ✓ Compiled in 1896ms (1880 modules)
+ GET / 200 in 138ms
+ GET /_next/static/css/app/layout.css?v=1770994557188 404 in 67ms
+ ✓ Compiled in 992ms (882 modules)
+ GET / 404 in 35ms
+ GET / 404 in 42ms
+ GET / 404 in 127ms
+ GET / 404 in 40ms
+ GET / 200 in 679ms
+ GET / 200 in 154ms
+ GET /_next/static/css/app/layout.css?v=1770994585144 404 in 273ms
+ GET /_next/static/chunks/main-app.js?v=1770994585144 404 in 364ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 310ms
+ GET /_next/static/chunks/app/page.js 404 in 207ms
+ ✓ Compiled in 703ms (882 modules)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>) {
+  digest: '2475551565'
+}
+TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>) {
+  page: '/'
+}
+ ⨯ Error: Cannot find module './627.js'
+Require stack:
+- C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js
+- C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\app\page.js
+- C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\node_modules\next\dist\server\require.js
+- C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\node_modules\next\dist\server\load-components.js
+- C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\node_modules\next\dist\build\utils.js
+- C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\node_modules\next\dist\build\swc\options.js
+- C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\node_modules\next\dist\build\swc\index.js
+- C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\node_modules\next\dist\server\config.js
+- C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\node_modules\next\dist\server\next.js
+- C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:198:28)
+    at <unknown> (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:111:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:162:22)
+    at <unknown> (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\pages\_document.js:1:339)
+    at Object.<anonymous> (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\pages\_document.js:1:381) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET / 500 in 4615ms
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>) {
+  digest: '2475551565'
+}
+TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>) {
+  digest: '2475551565'
+}
+TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>) {
+  digest: '2475551565'
+}
+TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>) {
+  digest: '2475551565'
+}
+TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>) {
+  digest: '2475551565'
+}
+TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (C:\Users\ricardo.souzamarques\OneDrive - Verisure\Desktop\Antigravity\Site\.next\server\webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>)
+ GET /_next/static/chunks/fallback/webpack.js 500 in 14062ms
+ GET /_next/static/chunks/fallback/main.js 500 in 14052ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 14045ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 14018ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 14007ms
+ GET / 404 in 436ms
+ GET / 404 in 136ms
+ GET / 404 in 185ms
+ GET / 404 in 107ms
+ GET / 404 in 170ms
+ GET / 404 in 117ms
+ GET / 404 in 149ms
+ GET / 404 in 93ms
+ GET / 404 in 25ms
+ GET / 404 in 19ms
+ GET / 404 in 121ms
+ GET / 404 in 38ms
+ GET / 404 in 44ms
+ GET / 404 in 11ms
+ GET / 404 in 12ms
+ GET / 404 in 16ms
+ GET / 404 in 10ms
+ GET / 404 in 46ms
+ GET / 404 in 34ms
+ GET / 404 in 32ms
+ GET / 404 in 31ms
+ GET / 404 in 146ms
+ GET / 404 in 45ms
+ GET / 404 in 107ms
+ GET / 404 in 66ms
+ GET / 404 in 47ms
+ GET / 404 in 47ms
+ GET / 404 in 64ms
+ GET / 404 in 200ms
+ GET / 404 in 110ms
+ GET / 404 in 27ms
+ GET / 404 in 109ms
+ GET / 404 in 26ms
+ GET / 404 in 26ms
+ GET / 404 in 60ms
+ GET / 404 in 30ms
+ GET / 404 in 34ms
+ GET / 404 in 372ms
+ GET / 404 in 31ms
+ GET / 404 in 34ms
+ GET / 404 in 46ms
+ GET / 404 in 34ms
+ GET / 404 in 35ms
+ GET / 404 in 40ms
+ GET / 404 in 30ms
+ GET / 404 in 29ms
+ GET / 404 in 37ms
+ GET / 404 in 49ms
+ GET / 404 in 40ms
+ GET / 404 in 36ms
+ GET / 404 in 112ms
+ GET / 404 in 54ms
+ GET / 404 in 93ms
+ GET / 404 in 85ms
+ GET / 404 in 41ms
+ GET / 404 in 40ms
+ GET / 404 in 28ms
+ GET / 404 in 24ms
+ GET / 404 in 45ms
+ GET / 404 in 32ms
+ GET / 404 in 56ms
+ GET / 404 in 57ms
+ GET / 404 in 68ms
+ GET / 404 in 65ms
+ GET / 404 in 39ms
+ GET / 404 in 47ms
+ GET / 404 in 39ms
+ GET / 404 in 62ms
+ GET / 404 in 39ms
+ GET / 404 in 36ms
+ GET / 404 in 37ms
+ GET / 404 in 40ms
+ GET / 404 in 78ms
+ GET / 404 in 56ms
+ GET / 404 in 83ms
+ GET / 404 in 40ms
+ GET / 404 in 49ms
+ GET / 404 in 25ms
+ GET / 404 in 22ms
+ GET / 404 in 46ms
+ GET / 404 in 32ms
+ GET / 404 in 47ms
+ GET / 404 in 37ms
+ GET / 404 in 20ms
+ GET / 404 in 130ms
+ GET / 404 in 30ms
+ GET / 404 in 51ms
+ GET / 404 in 28ms
+ GET / 404 in 21ms
+ GET / 404 in 43ms
+ GET / 404 in 53ms
+ GET / 404 in 36ms
+ GET / 404 in 57ms
+ GET / 404 in 103ms
+ GET / 404 in 45ms
+ GET / 404 in 54ms
+ GET / 404 in 32ms
+ GET / 404 in 48ms
+ GET / 404 in 26ms
+ GET / 404 in 52ms
+ GET / 404 in 132ms
+ GET / 404 in 30ms
+ GET / 404 in 50ms
+ GET / 404 in 31ms
+ GET / 404 in 27ms
+ GET / 404 in 24ms
+ GET / 404 in 29ms
+ GET / 404 in 38ms
+ GET / 404 in 134ms
+ GET / 404 in 51ms
+ GET / 404 in 20ms
+ GET / 404 in 47ms
+ GET / 404 in 25ms
+ GET / 404 in 34ms
+ GET / 404 in 20ms
+ GET / 404 in 31ms
+ GET / 404 in 45ms
+ GET / 404 in 23ms
+ GET / 404 in 35ms
+ GET / 404 in 27ms
+ GET / 404 in 31ms
+ GET / 404 in 122ms
+ GET / 404 in 36ms
+ GET / 404 in 35ms
+ GET / 404 in 36ms
+ GET / 404 in 26ms
+ GET / 404 in 28ms
+ GET / 404 in 29ms
+ GET / 404 in 31ms
+ GET / 404 in 32ms
+ GET / 404 in 114ms
+ GET / 404 in 33ms
+ GET / 404 in 25ms
+ GET / 404 in 36ms
+ GET / 404 in 17ms
+ GET / 404 in 47ms
+ GET / 404 in 15ms
+ GET / 404 in 18ms
+ GET / 404 in 24ms
+ GET / 404 in 20ms
+ GET / 404 in 77ms
+ GET / 404 in 29ms
+ GET / 404 in 51ms
+ GET / 404 in 35ms
+ GET / 404 in 38ms
+ GET / 404 in 137ms
+ GET / 404 in 77ms
+ GET / 404 in 52ms
+ GET / 404 in 53ms
+ GET / 404 in 29ms
+ GET / 404 in 44ms
+ GET / 404 in 45ms
+ GET / 404 in 45ms
+ GET / 404 in 89ms
+ GET / 404 in 47ms
+ GET / 404 in 25ms
+ GET / 404 in 31ms
+ GET / 404 in 35ms
+ GET / 404 in 141ms
+ GET / 404 in 21ms
+ GET / 404 in 29ms
+ GET / 404 in 22ms
+ GET / 404 in 72ms
+ GET / 404 in 234ms
+ GET / 404 in 50ms
+ GET / 404 in 39ms
+ GET / 404 in 80ms
+ GET / 404 in 37ms
+ GET / 404 in 37ms
+ GET / 404 in 211ms
+ GET / 404 in 31ms
+ GET / 404 in 69ms
+ GET / 404 in 78ms
+ GET / 404 in 53ms
+ GET / 404 in 53ms
+ GET / 404 in 114ms
+ GET / 404 in 188ms
+ GET / 404 in 79ms
+ GET / 404 in 378ms
+ GET / 404 in 190ms
+ GET / 404 in 45ms
+ GET / 404 in 40ms
+ GET / 404 in 41ms
+ ✓ Compiled in 11.3s (1880 modules)
+[?25h

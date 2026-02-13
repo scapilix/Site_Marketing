@@ -16,7 +16,7 @@ export async function sendContactEmail(formData: FormData) {
 
   try {
     const { data, error } = await resend.emails.send({
-      from: "AC Marketing <onboarding@resend.dev>",
+      from: "LeadPulsePT <onboarding@resend.dev>",
       to: [process.env.CONTACT_RECEIVER_EMAIL || "ricardo.souzamarques@verisure.pt"],
       subject: `Novo Lead: ${name}`,
       html: `
@@ -30,7 +30,7 @@ export async function sendContactEmail(formData: FormData) {
 
     if (error) {
       console.error("Resend Error:", error);
-      return { error: "Ocorreu um erro ao enviar o seu pedido. Tente novamente mais tarde." };
+      return { error: "Ocorreu um erro ao enviar o teu pedido. Tenta novamente mais tarde." };
     }
 
     return { success: true };
