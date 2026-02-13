@@ -1,0 +1,92 @@
+
+> ac-marketing@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.1.0
+   - Local:        http://localhost:3000
+   - Network:      http://10.11.40.53:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 23.9s
+ ○ Compiling / ...
+ ✓ Compiled / in 15.6s (1614 modules)
+ GET / 200 in 4067ms
+ ✓ Compiled in 1720ms (672 modules)
+ ✓ Compiled in 249ms (672 modules)
+ ✓ Compiled in 321ms (672 modules)
+ ✓ Compiled in 296ms (672 modules)
+ GET / 200 in 101ms
+ GET / 200 in 47ms
+Resend Error: {
+  statusCode: 403,
+  name: 'validation_error',
+  message: 'You can only send testing emails to your own email address (scapilix@gmail.com). To send emails to other recipients, please verify a domain at resend.com/domains, and change the `from` address to an email using this domain.'
+}
+ POST / 200 in 484ms
+ ✓ Compiled in 207ms (672 modules)
+ GET / 200 in 29ms
+ GET / 200 in 27ms
+ ✓ Compiled in 405ms (672 modules)
+ GET / 200 in 53ms
+ GET / 200 in 76ms
+ ✓ Compiled in 349ms (672 modules)
+ GET / 200 in 288ms
+ ✓ Compiled in 341ms (672 modules)
+ GET / 200 in 25ms
+ ✓ Compiled in 526ms (672 modules)
+ GET / 200 in 28ms
+   Reload env: .env.local
+ ✓ Compiled in 897ms (1600 modules)
+ GET / 200 in 173ms
+   Reload env: .env.local
+ ✓ Compiled in 1965ms (1614 modules)
+ GET / 200 in 207ms
+ POST / 200 in 427ms
+ ✓ Compiled in 197ms (672 modules)
+ GET / 200 in 45ms
+ ✓ Compiled in 398ms (672 modules)
+ GET / 200 in 40ms
+ ✓ Compiled in 458ms (672 modules)
+ GET / 200 in 50ms
+ ✓ Compiled in 1042ms (1614 modules)
+ GET / 200 in 131ms
+ ✓ Compiled in 381ms (672 modules)
+ GET / 200 in 40ms
+   Reload env: .env.local
+ ✓ Compiled in 1063ms (1614 modules)
+ GET / 200 in 88ms
+ ✓ Compiled in 989ms (1614 modules)
+ GET / 200 in 86ms
+ GET / 200 in 271ms
+Resend Error: {
+  statusCode: 403,
+  name: 'validation_error',
+  message: 'You can only send testing emails to your own email address (scapilix@gmail.com). To send emails to other recipients, please verify a domain at resend.com/domains, and change the `from` address to an email using this domain.'
+}
+ POST / 200 in 486ms
+ ✓ Compiled in 227ms (672 modules)
+ GET / 200 in 30ms
+ GET / 200 in 17ms
+Resend Error: {
+  statusCode: 403,
+  name: 'validation_error',
+  message: 'You can only send testing emails to your own email address (scapilix@gmail.com). To send emails to other recipients, please verify a domain at resend.com/domains, and change the `from` address to an email using this domain.'
+}
+ POST / 200 in 1685ms
+ ✓ Compiled in 316ms (672 modules)
+ GET / 200 in 49ms
+ ✓ Compiled in 363ms (672 modules)
+ GET / 200 in 42ms
+   Reload env: .env.local
+ ✓ Compiled in 762ms (1600 modules)
+ GET / 200 in 148ms
+ ✓ Compiled in 192ms (672 modules)
+ GET / 200 in 40ms
+ ✓ Compiled in 336ms (672 modules)
+ GET / 200 in 38ms
+ ✓ Compiled in 904ms (1600 modules)
+ GET / 200 in 166ms
+ POST / 200 in 530ms
+ ✓ Compiled in 236ms (672 modules)
+ GET / 200 in 28ms
